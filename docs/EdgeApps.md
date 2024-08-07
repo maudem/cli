@@ -484,7 +484,7 @@ Coming soon.
 
 ## Cross-Origin Resource Sharing (CORS)
 
-Cross-origin resource sharing is a mechanism that allows restricted resources on a web page to be accessed from another domain outside the domain from which the first resource was served. Some APIs, particularly public ones, use CORS to restrict access. Sometimes you need to bypass CORS. To do this, we provide you with a handy CORS proxy mitigation strategy.
+Cross-origin resource sharing is a mechanism that allows restricted resources on a web page to be accessed from another domain outside the domain from which the first resource was served. Some APIs, particularly public ones, use CORS to restrict access. Sometimes you need to bypass CORS. To do this, we provide you with a handy CORS proxy mitigation strategy for your Screenly device.
 
 The way it works is very straightforward. Instead of accessing the API directly from JavaScript, you access it via the CORS proxy. The CORS proxy removes the CORS policy so that you can circumvent the restriction.
 
@@ -505,7 +505,7 @@ For instance, if you're trying to access the API endpoint `https://api.example.c
 </body>
 ```
 
-In the example code snippet above, replace `api_url` with `bypass_cors_url` to interface with the API as usual through the CORS proxy.
+In the example code snippet above, replace `api_url` with `bypass_cors_url` to interface with the API as usual through the CORS proxy. Please note that the CORS proxy should only be used on your Screenly device.
 
 ---
 
